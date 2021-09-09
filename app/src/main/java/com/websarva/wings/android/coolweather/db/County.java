@@ -1,9 +1,14 @@
 package com.websarva.wings.android.coolweather.db;
 
-import lombok.Data;
+import org.litepal.crud.LitePalSupport;
 
-@Data
-public class County {
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+public class County  extends LitePalSupport {
 
     private int id;
 
